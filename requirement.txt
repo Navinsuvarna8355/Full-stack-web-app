@@ -1,0 +1,15 @@
+# Core UI
+streamlit>=1.35.0
+
+# Backend (Python target)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# HTTP requests from frontend to backend
+requests>=2.31.0
+
+# CORS middleware for backend
+python-multipart>=0.0.9
+
+# Optional: for JSON handling and data validation
+pydantic>=2.7.0
